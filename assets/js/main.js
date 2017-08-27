@@ -1,4 +1,4 @@
-console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55');
+// console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55');
 
 /* ---------------------------------------------- /*
  * Preloader
@@ -820,29 +820,29 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 ]
             };
 
-            // Get the HTML DOM element that will contain your map
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('map');
+            // // Get the HTML DOM element that will contain your map
+            // // We are using a div with id="map" seen below in the <body>
+            // var mapElement = document.getElementById('map');
 
-            // Create the Google Map using our element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
+            // // Create the Google Map using our element and options defined above
+            // var map = new google.maps.Map(mapElement, mapOptions);
 
-            // Let's also add a marker while we're at it
-            var image = new google.maps.MarkerImage('assets/images/map-icon.png',
-                new google.maps.Size(59, 65),
-                new google.maps.Point(0, 0),
-                new google.maps.Point(24, 42)
-            );
+            // // Let's also add a marker while we're at it
+            // var image = new google.maps.MarkerImage('assets/images/map-icon.png',
+            //     new google.maps.Size(59, 65),
+            //     new google.maps.Point(0, 0),
+            //     new google.maps.Point(24, 42)
+            // );
 
-            var marker = new google.maps.Marker({
-                position: mkr,
-                icon: image,
-                title: 'Titan',
-                infoWindow: {
-                    content: '<p><strong>Rival</strong><br/>121 Somewhere Ave, Suite 123<br/>P: (123) 456-7890<br/>Australia</p>'
-                },
-                map: map,
-            });
+            // var marker = new google.maps.Marker({
+            //     position: mkr,
+            //     icon: image,
+            //     title: 'Titan',
+            //     infoWindow: {
+            //         content: '<p><strong>Rival</strong><br/>121 Somewhere Ave, Suite 123<br/>P: (123) 456-7890<br/>Australia</p>'
+            //     },
+            //     map: map,
+            // });
         }
 
     });

@@ -2938,3 +2938,6 @@ Google map
     height: 16em;
     width: 16em;
 }
+.brand{
+  text-transform: none;
+}
