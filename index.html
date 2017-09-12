@@ -371,6 +371,21 @@
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
+                    <label class="sr-only" for="phone">Do you require delivery?</label>
+                    <label class="radio-inline">
+                      <input type="radio" name="requireDelivery" required="required" data-validation-required-message="Choose whether you require delivery or not.">I require delivery
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="requireDelivery" required="required" data-validation-required-message="Choose whether you require delivery or not.">I will collect in Wilgeheuwel/Bryanston
+                    </label>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="address">Delivery Address</label>
+                    <input class="form-control" type="text" id="address" name="address" placeholder="Delivery Address (Suburb and town)" data-validation-required-message="Please enter the suburb and town where you want the trays delivered (transport costs may apply)."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
                     <label class="sr-only" for="email">Email</label>
                     <input class="form-control" type="email" id="email" name="email" placeholder="Your Email" data-validation-required-message="Please enter your email address."/>
                     <p class="help-block text-danger"></p>
